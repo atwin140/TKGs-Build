@@ -17,6 +17,10 @@ apt-get install terraform
 apt install ansible
 
 ### Configure vault
+echo "";
+echo "________________________________________"
+echo "----------------------------------------"
+echo "________________________________________"
 echo "Please enter a password for the Vault -  this will not be saved in the git repo"
 
 stty -echo
@@ -24,3 +28,4 @@ read password;
 stty echo
 
 echo $password >../valutpass
+
