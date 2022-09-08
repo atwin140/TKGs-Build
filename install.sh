@@ -23,4 +23,4 @@ stty -echo
 read password;
 stty echo
 
-echo $password >../valutpass
+echo $password > ../valutpass
